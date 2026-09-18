@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(204, 204, 204)
+}
+h1,h2{
+	text-align:center;
+}
+
+ul{
+	border: 1px solid black;
+	border-radius:5px;
+	padding-top:25px;
+	padding-bottom:25px;
+	list-style-type:none;
+	padding-inline:15px;
+	background-color:white;
+	width:90%;
+	margin:2.5%;
+}
+.container {
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	width:550px;
+	margin: 0 auto;
+}
+.player_one {
+	width: 500px;
+	height: 500px
+}
